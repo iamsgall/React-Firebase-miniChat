@@ -39,5 +39,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyCZOnf-UHG4BETqE7hpMUJbMzIFj-np8gM',
+        authDomain: 'react-firebase-chatroom-f4ac8.firebaseapp.com',
+        databaseURL: 'https://react-firebase-chatroom-f4ac8.firebaseio.com',
+        projectId: 'react-firebase-chatroom-f4ac8',
+        storageBucket: 'react-firebase-chatroom-f4ac8.appspot.com',
+        messagingSenderId: '12062032373',
+        appId: '1:12062032373:web:1a0021fa83cfb1973260bc',
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
